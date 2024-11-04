@@ -75,12 +75,12 @@ body {
         font-size: 14px;
     }
 
-    /* Adjust padding and margins */
+    
     .project-section, .about-section {
         padding: 10px;
     }
 
-    /* Example for images */
+    
     img {
         width: 100%;
         height: auto;
