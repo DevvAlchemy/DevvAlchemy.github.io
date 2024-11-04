@@ -127,7 +127,6 @@ body {
     color: #FFD700;
 }
 
-
 .section {
     margin-bottom: 20px;
     padding: 20px;
@@ -135,12 +134,10 @@ body {
     border-radius: 8px;
 }
 
-
 .scrollable {
     max-height: 400px;
     overflow-y: auto;
 }
-
 
 .skills {
     display: flex;
