@@ -8,14 +8,14 @@
 body {
     font-family: Arial, sans-serif;
     display: flex;
-    background-color: #181818;
+    background: #181818;
     color: #FFFFFF;
     font-size: 1.2em;
 }
 
 .sidebar {
     width: 25%;
-    background-color: #1e1e1e;
+    background: #1e1e1e;
     padding: 30px 20px;
     display: flex;
     flex-direction: column;
@@ -105,7 +105,7 @@ body {
 .navbar {
     display: flex;
     justify-content: center;
-    background-color: #333;
+    background: #333;
     padding: 10px 0;
     margin-bottom: 20px;
 }
@@ -148,7 +148,7 @@ body {
 }
 
 .skill-card {
-    background-color: #333;
+    background: #333;
     color: #fff;
     width: 100%;
     max-width: 250px; 
@@ -207,7 +207,7 @@ body {
 }
 
 .language-icon {
-    background-color: #444;
+    background: #444;
     padding: 10px;
     border-radius: 50%;
     color: #fff;
@@ -241,7 +241,7 @@ body {
 }
 
 .project-card {
-    background-color: #333;
+    background: #333;
     color: #fff;
     width: 100%;
     max-width: 250px;
@@ -279,28 +279,44 @@ body {
     transform: translateY(-10px); 
 }
 
+#contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
 
 .contact-form {
     display: flex;
     flex-direction: column;
     gap: 15px;
-#    height: 300px;
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
 }
-
-#contact-section {
-    height: 500px;
-}
-
 
 .contact-form input, .contact-form textarea, .contact-form button {
     padding: 10px;
     border: none;
     border-radius: 5px;
-    
+    width: 100%;
 }
 
 .contact-form button {
-    background-color: #4CAF50;
+    background: #4CAF50;
     color: #FFF;
     font-weight: bold;
     cursor: pointer;
